@@ -1,3 +1,16 @@
-.c檔 為source code，有使用到unp.h，需使用與課程作業樣的方法編譯
-final 為 server 的執行檔，可直接使用 ./final 執行
-finsl_cli 為 client 的執行檔，可直接用 ./final_cli <ip address> 執行
+# 說明
+
+## 檔案內容  
+- **`*.c`**:  
+  Source code 檔案，使用到 `unp.h`。需按照課程作業的指定方式進行編譯。  
+
+- **`final`**:  
+  Server 的執行檔。可以直接使用以下指令執行：  
+  ```bash
+  ./final
+  ```
+- **`final_cli`**:  
+  client 的執行檔。可以直接使用以下指令執行：  
+  ```bash
+  ./final_cli <ip address>
+  ```
